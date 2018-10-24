@@ -1,8 +1,5 @@
 numbers = (1..20)
-numbers.each do |number|
- puts number * number
-end
-
+numbers.each {|number| puts number * number}
 
 
 # simple test
